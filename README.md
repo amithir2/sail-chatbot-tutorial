@@ -1,6 +1,21 @@
 # sail-chatbot-tutorial
 Skeleton code to teach high school students attending CS@Illinois Sail how to create a chatbot.
 
+## Instructions
+#### Download 
+```
+git clone https://github.com/amithir2/sail-chatbot-tutorial.git sail
+```
+#### Editing Code
+```
+cd sail
+gedit chatbot.py &
+```
+#### Running Chatbot
+```
+python chatbot.py
+```
+
 ## Course Details 
 **Instructor:** Chamila Amithirigala, **Date:** April 9, 2016
 
