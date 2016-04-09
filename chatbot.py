@@ -1,5 +1,6 @@
 from utils import Chat, reflections
 
+# TODO: update and change these as you please!
 pairs = (
   (r'I need (.*)',
   ( "Why do you need %1?",
@@ -210,6 +211,7 @@ pairs = (
 example_chatbot = Chat(pairs, reflections)
 
 def example_chat():
+    # TODO: make sure you rename your bot here!
     print("Eliza\n---------")
     print("Talk to Eliza by typing in plain English, using normal upper-")
     print('and lower-case letters and punctuation.  Enter "quit" when done.')
