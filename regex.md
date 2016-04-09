@@ -44,4 +44,6 @@
   - '%1' --> 'mom'
 
 ## Weird characters
-Keep in mind that if you type certain punctuation like apostrophe or question mark, you must include a backslash, '\', right before it 
+Keep in mind that if you type certain punctuation in the regular expression, like apostrophe or question mark, you must include a backslash, '\', right before it 
+- '\?'
+- '\''
