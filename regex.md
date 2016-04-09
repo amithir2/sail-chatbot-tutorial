@@ -37,10 +37,11 @@
 - 'mom' --> 'mother|mom' --> MATCH
 
 ## () 
-#### Grouping
-- Can be used to get the text that matched
-- 'mother' --> '(mother|mom)' --> MATCH, '%1' --> 'mother'
-- 'mom' --> '(mother|mom)' --> MATCH, '%1' --> 'mom'
+#### Grouping, Can be used to get the text that matched
+- 'mother' --> '(mother|mom)' --> MATCH
+  - '%1' --> 'mother'
+- 'mom' --> '(mother|mom)' --> MATCH
+  - '%1' --> 'mom'
 
 ## Weird characters
 Keep in mind that if you type certain punctuation like apostrophe or question mark, you must include a backslash, '\', right before it 
