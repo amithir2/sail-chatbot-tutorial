@@ -3,15 +3,18 @@ Skeleton code to teach high school students attending CS@Illinois Sail how to cr
 
 ## Instructions
 #### Download 
+This will download all files in this repo into a folder named sail
 ```
 git clone https://github.com/amithir2/sail-chatbot-tutorial.git sail
 ```
 #### Editing Code
+This will open `chatbot.py` in a text editor. You can modify the code.
 ```
 cd sail
 gedit chatbot.py &
 ```
 #### Running Chatbot
+This will run your chatbot. You can type a response and converse with your very own bot!
 ```
 python chatbot.py
 ```
